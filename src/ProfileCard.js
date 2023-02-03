@@ -11,11 +11,12 @@ function ProfileCard({title, handle, image, description}) {
                 <div className="media-content">
                     <p className="title is-4">Title is {title} </p>
                     <p className="subtitle is 6">twiter {handle} </p>
-                    <p className="subtitle is 6">description {description} </p>
+                    <p className="subtitle is 6">descriptions {description} </p>
                 </div>
            </div>
         </div>
     )
 }
+
 
 export default ProfileCard
